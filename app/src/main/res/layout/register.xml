@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="59dp"
+        android:text="账号"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="121dp"
+        android:text="密码"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="68dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-4dp"
+
+        android:layout_marginRight="68dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="173dp"
+        android:layout_marginRight="100dp"
+        android:text="确认注册" />
+
+
+
+</RelativeLayout>
