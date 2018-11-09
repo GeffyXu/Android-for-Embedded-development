@@ -1,9 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/edit_background"
+        android:hint="请输入搜索内容"
+        android:selectAllOnFocus="true"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:layout_marginTop="8dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/textView2"
+        android:src="@drawable/search" />
+</LinearLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="这是关注好友界面"/>
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的订阅消息：" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:background="#efefef"
+        android:gravity="center"
+        android:text="健康饮食讲座下午三点举行！"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"/>
+
+        <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:background="#efefef"
+        android:gravity="center"
+        android:text="三步教你燃烧脂肪，轻松减脂！"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="你想拥有完美的肌肉么？"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="#efefef"
+            android:gravity="center"
+            android:text="动起来动起来！"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"/>
+    </LinearLayout>
 </LinearLayout>

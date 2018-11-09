@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="这是功能设置界面"/>
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/setting_font_size"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="设置1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/setting_clean_mine"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="设置2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/clean_record"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="设置3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/clean_record2"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="设置4" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/clean_record3"
+        style="@style/SettingTheme"
+        android:layout_height="40sp"
+        android:text="设置5" />
+
 </LinearLayout>

@@ -15,7 +15,7 @@
         <item
             android:id="@+id/relation"
             android:icon="@drawable/ic_chat"
-            android:title="关注的人" />
+            android:title="您的订阅" />
         <item
             android:id="@+id/plan"
             android:icon="@drawable/ic_schedule"
