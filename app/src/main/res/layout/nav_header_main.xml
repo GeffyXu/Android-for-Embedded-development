@@ -21,10 +21,11 @@
         app:srcCompat="@drawable/user_logo" />
 
     <TextView
+        android:id="@+id/la_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Geffy Xuuu"
+        android:text="@string/username"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18dp" />
 
