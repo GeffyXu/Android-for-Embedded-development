@@ -105,11 +105,16 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.plan) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
                     new PlanFragment()).commit();
-        } else if (id == R.id.setting) {
+        } else if (id == R.id.trainer) {
             getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    new SettingFragment()).commit();
-        } else if (id == R.id.nav_share) {
-
+                    new TrainerFragment()).commit();
+        }else if(id ==R.id.video){
+            Intent intent = new Intent(MainActivity.this, VideosActivity.class);
+            startActivity(intent);
+        }
+        else if(id ==R.id.email){
+            Intent intent = new Intent(MainActivity.this, EmailActivity.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

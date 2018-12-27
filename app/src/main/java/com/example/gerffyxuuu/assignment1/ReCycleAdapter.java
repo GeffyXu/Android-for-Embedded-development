@@ -47,9 +47,9 @@ public class ReCycleAdapter extends RecyclerView.Adapter<ReCycleAdapter.PersonVi
         }
     }
 
-    List<SettingFragment.Person> persons;
+    List<TrainerFragment.Person> persons;
 
-    ReCycleAdapter(List<SettingFragment.Person> persons) {
+    ReCycleAdapter(List<TrainerFragment.Person> persons) {
         this.persons = persons;
     }
 
